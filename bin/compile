@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir>
 
-echo "-----> Installing prestashop"
-echo "----->Starting composer..."
-composer prestashop-setup-core
+echo "--------->Installing bc"
+apt-get install -y bc
+echo "--------->Installing vim"
+apt-get install -y vim
