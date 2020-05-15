@@ -1,3 +1,7 @@
 #!/usr/bin/env bash
-
-echo "Complete!"
+cat << EOF
+---
+addons:
+default_process_types:
+  web: bin/node index.js
+EOF
